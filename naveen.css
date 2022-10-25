@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar .logo-section{
+    height: 90px;
+    background-color:#faf1f1;
+    
+}
+#navbar .logo-section #logo{
+    height: 64px;
+    width: 69px;
+    margin:19px;
+    border-radius: 27px;
+
+}
+
+i{
+    padding: 4px;
+}
+li{
+    margin-top: 30px;
+    
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Roboto";
+
+
+}
+ul li .donate{
+    justify-content: end;
+}
+a::before{
+    color: #090909;
+}
+a::after{
+    color: #ffffff;
+}
+a:link{
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 18px;
+    padding: 15px;
+    font-size: 1.0rem;
+   
+
+}
+a:hover{
+    background-color: #abe3f8;
+    color: black;
+
+}
+#navbar{
+    background-image: url("https://cdn.dribbble.com/users/846207/screenshots/4901842/bird-flying.gif");
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+#heading-main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 10px;
+    height: 230px;
+}
+.h-primary{
+    font-family:'Bree Serif', serif;
+}
+.p-primary{
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.button{
+    width: 90px;
+    margin: 20px;
+    
+}
+
+.profile{
+    background-color: #9440a2;
+    height: 300px;
+    color: #f4f2f9;
+    border-radius: 15px;
+    border: 3px solid rgb(13, 187, 4);
+    margin: 10px 70px;
+}
+.image #ravi{
+   padding: 20px;
+   height: 250px;
+   width: 250px;
+   
+}
+#ravi{
+    border-radius: 50%;
+}
+.para .heading-one{
+    text-align: center;
+    padding: 15px;
+}
+.main-para{
+    padding: 10px 30px;
+}
+.sub-heading{
+    padding: 15px;
+    text-align: center;
+}
+.sub-para{
+    width: 300px;
+    font-style: italic;
+    font-weight: bold;
+    opacity: 0.8;
+
+}
+.Agri-info{
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 3px solid rgb(21, 199, 21);
+    padding: 5px;
+    margin: 25px;
+}
+
+.polo{
+    margin-left: 195px;
+}
+#many{
+    height: 60px;
+}
+.address{
+    text-align: center;
+    margin: 10px 400px;
+    background-image: url("https://media0.giphy.com/media/l2YWeL5daRYa1hufu/giphy.gif");
+    background-repeat: no-repeat;
+    
+    color: rgb(248, 240, 240);
+    border-radius: 25px;
+}
+.details{
+    text-align: center;
+    padding: 20px;
+    
+    
+
+}
+.insta i a::before{
+    background-color: rgb(177, 11, 111);
+}
+code{
+    color: #ffffff;
+}
+.impt{
+    color: #ffffff;
+    background-color: rgb(9, 128, 31);
+    border-radius: 25px;
+    border-width: 0px;
+    margin: 10px 0px;
+}

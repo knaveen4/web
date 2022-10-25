@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmBoy.com</title>
+    <link rel="stylesheet" href="naveen.css">
+    <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/64bd543b81.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo-section d-flex flex-row ">
+            <img id="logo" src="data:image/png;base64,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" height="100px" width="135px" alt="Farmboy.com">
+            <ul class="itm d-flex flex-row ">
+                <li><a href="#navbar">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Poducts</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                <li><a href="#">Login <i class="fa-solid fa-arrow-right"></i></a></li>
+                <a href="index.html"><div id="donate"><button class="btn btn-warning bulo " >Donate</button></div></a>
+            </ul>
+            
+        </div>
+        
+        
+        <div class="impt">
+          <marquee behavior="" direction="" id="impt">hello,How are you? I think you are doing well. From Our site there are many updates in every min & day so,  Every Update is scroll here , Thankq hello,How are you? I think you are doing well. From Our site there are many updates in every min & day so,  Every Update is scroll here , Thankq </marquee>
+        </div>
+        <div id="heading-main" class="pro">
+          <h1 class="h-primary">Welcome Boddy</h1>
+          <p class="p-primary">Hello, I'm Ravi Kumar from India, And I'm Farmer  also  <br> Software Devoloper, This is Not a Profite Based company , Only to Support the farmers  to trade easy.</p>
+          <div class=" one d-flex flex-row justify-content-center">
+            <div >
+              <button class="btn btn-primary button">Sell</button>
+            </div>
+            <div>
+              <button class="btn btn-success button">Buy</button>
+            </div>
+             
+          </div>
+        </div>
+        
+
+    </nav>
+    <div class="profile d-flex flex-row  justify-content-center">
+      <div class="image">
+        <img id="ravi" src="mama.jpg" alt="Founder image">
+      </div>
+      <div class="para">
+        <h3 class="heading-one">Founder</h3>
+        <p class="main-para">
+           I Ravi kumar Rajput from Bihar,and i had completed my graduation b-tech in Uttaranchal University, Dehradun.
+           My grand father is a farmer so i know problems and issues faced by farmers, In my graduation i decided to help farmers in India through my career option ,
+           This site helps in different ways like prices, demand and easy to trade directly. 
+        </p>
+      </div>
+    </div>
+    <div id="services">
+      <h2 class="sub-heading">Services</h2>
+        <div class=" container first-one d-flex flex-row justify-content-between">
+          <div class="Agri-info">
+            <img src="https://media.istockphoto.com/photos/crate-with-vegetables-picture-id479203646?b=1&k=20&m=479203646&s=612x612&w=0&h=8qYaK600l8yqN-WlV5453K3Mi8UKUoZ9Vd4MZZk5mn4=" height="200px" width="300px" alt="">
+            <h3>agri Info</h3>
+            <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur sapiente explicabo neque blanditiis sed atque hic sit. Esse error amet impedit quibusdam architecto nemo tempore ipsum voluptas odit repellat.</p>
+            <button class="btn btn-warning polo">Let's Go</button>
+          </div>
+          <div class="Agri-info">
+            <img src="https://media.istockphoto.com/photos/two-farmers-shaking-hands-in-corn-field-in-spring-picture-id1331241250?b=1&k=20&m=1331241250&s=612x612&w=0&h=7SgLYdS0GkUm2BBVtvBuD919Q1jnKyGMDiIELqEJTjg=" height="200px" width="300px" alt="">
+            <h3>Career</h3>
+            <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur sapiente explicabo neque blanditiis sed atque hic sit. Esse error amet impedit quibusdam architecto nemo tempore ipsum voluptas odit repellat.</p>
+            <button class="btn btn-warning polo">Let's Go </i></button>
+          </div>
+          <div class="Agri-info">
+            <img src="https://images.pexels.com/photos/4497591/pexels-photo-4497591.jpeg?auto=compress&cs=tinysrgb&w=600" height="200px" width="300px" alt="">
+            <h3>Loans</h3>
+            <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur sapiente explicabo neque blanditiis sed atque hic sit. Esse error amet impedit quibusdam architecto nemo tempore ipsum voluptas odit repellat.</p>
+            <button class="btn btn-warning polo">Let's Go</button>
+          </div>
+          <h3 id="many">Many More...</h3>
+        </div>
+       
+    </div>
+      <div id="products">
+        <h2 class="sub-heading" ><code> Products</code>  </h2>
+        <div class=" container first-one d-flex flex-row justify-content-between">
+          <div class="Agri-info">
+            <img src="https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=600" height="200px" width="300px" alt="">
+            <h3>Tractors</h3>
+            <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur sapiente explicabo neque blanditiis sed atque hic sit. Esse error amet impedit quibusdam architecto nemo tempore ipsum voluptas odit repellat.</p>
+            <button class="btn btn-warning polo">Let's Go</button>
+          </div>
+          <div class="Agri-info">
+            <img src="https://media.istockphoto.com/photos/farmer-spraying-his-crops-using-a-drone-picture-id935726026?b=1&k=20&m=935726026&s=612x612&w=0&h=MSA_HfSsn4sXJuSorjSHVmOkrMg9EiRTBj0lu4e1TmI=" height="200px" width="300px" alt="">
+            <h3>Drones</h3>
+            <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur sapiente explicabo neque blanditiis sed atque hic sit. Esse error amet impedit quibusdam architecto nemo tempore ipsum voluptas odit repellat.</p>
+            <button class="btn btn-warning polo">Let's Go </i></button>
+          </div>
+          
+          <div class="Agri-info">
+            <img src="https://images.pexels.com/photos/1393382/pexels-photo-1393382.jpeg?auto=compress&cs=tinysrgb&w=600" height="200px" width="300px" alt="">
+            <h3>Seeds</h3>
+            <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur sapiente explicabo neque blanditiis sed atque hic sit. Esse error amet impedit quibusdam architecto nemo tempore ipsum voluptas odit repellat.</p>
+            <button class="btn btn-warning polo">Let's Go</button>
+          </div>
+          
+        </div>
+      </div>
+      <div id="contact">
+        <h2 class="sub-heading">Contact</h2>
+        <div class="address d-flex flex-row justify-content-between">
+          
+          <div class="details">
+            <h2 class="sub2">Address</h2>
+            <code><h3>Ravi Kumar Rajput</h3>
+            <br>rajputravi7011@gmail.com <br>
+          H.No:16-9-340 <br> Old Malakpet, Hyderabad ,pin code:500001 <br>
+          Follow me on </code>
+          <br>
+          <br>
+           <div class="ord d-flex flex-row ">
+              <div class="insta"><a href="https://www.instagram.com/insta_call_me_rajput_1001/?hl=en"><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
+              <div class="face"><a href="https://www.facebook.com/rocky.sri.7169"><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
+              <div class="email"><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope fa-2xl"></i></a></div>
+           </div>
+          </div>
+          <div class="image2">
+            <img src="https://lh3.googleusercontent.com/a/ALm5wu2DgybL7zIttBpfINroKy6gFma1FQXVQl3lwfreIg=s360-p-rw-no" alt="">
+          </div>
+        </div>
+      </div>
+  
+    
+</body>
+</html>
